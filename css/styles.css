@@ -1,28 +1,37 @@
 .navbar {
     background-color: transparent !important;
+    position: absolute;
+    display: flex;
+    margin-left:0px;
+    margin-top:25px;
+    
 }
 
 
 .navbar-brand {
     color: yellow !important;
-    font-size: 44px;
-    margin-left: 520px !important;
-    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    margin-left:460px;
+    text-decoration: none;
     font-family: 'Pirata One', cursive;
-
-}
+    
+    
+  }
 
 body {
-    background-color: black;
+    background-color:black;
+    
 
 }
 
 .image-container {
-    position: absolute;
-    top: 0;
+    position:absolute;
+    top: 00px;
     left: 250px;
     width: 75%;
-    height: 70%;
+    height: 75%;
+    color:transparent;
+    
 
 }
 
@@ -30,16 +39,66 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    color:transparent;
+    
+}
+
+.navbar-nav{
+    margin-left: 280px;
+    margin-top: 20px;
 
 }
 
-.navbar-collapse {
-    margin-right: 470px;
-
-}
-
-.navbar-nav .nav-link {
+.navbar-nav .nav-item {
     color: white !important;
-    font-weight: bold;
     font-size: 18px;
-}
+    margin-left: 20px;
+   
+    text-decoration: none;
+    
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+    
+ }
+
+  .welcome-container {
+    color:white;
+    margin-left: 890px;
+    margin-top: 240px;
+    position:absolute;
+    
+  }
+
+  .btn-one {
+    display: inline-block;
+    min-width: 160px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background: linear-gradient(90deg, transparent 25%, yellow 70%);
+    background-size: 325% 150%;
+    transition: all 2.1s ease;
+  
+    &:hover {
+      background-position: -100% 0;
+      color: white;
+      border-color: white;
+      font-family: "Pacifico", cursive;
+    }
+
+  }
+  .welcome-text h1 {
+    font-size: 45px;
+    color: #123456;
+    margin-left: -55px;
+    font-family: 'Pirata One', cursive;
+  }
+
+

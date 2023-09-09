@@ -3,23 +3,29 @@
 
 <head>
   <meta charset="utf-8">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-grid.css" rel="stylesheet">
+  <link href="_navbar.css" rel="stylesheet">
+  <link href="_nav.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pirata+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pirata+One&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+
 
   <title>Chapel</title>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
     <div class="row">
       <div class="col-md-4">
         <!-- Container for the image -->
         <div class="image-container">
           <img
-            src="https://images.pexels.com/photos/208277/pexels-photo-208277.jpeg?auto=compresscs=tinysrgbw=1260h=750dpr=2"
+          src="https://images.pexels.com/photos/2220422/pexels-photo-2220422.jpeg?auto=compresscs=tinysrgbw=1260h=750dpr=2"
             alt="Image">
         </div>
       </div>
@@ -28,18 +34,26 @@
 
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Chapel</a>
-    <div class="collapse navbar-collapse justify-content-end">
-      <div class="navbar-nav">
+  <div class="container"></div>
+  <div class="row"></div>
+  <nav class="navbar">
+    <a class="navbar-brand col-2" href="#">Old Chapel in Woods</a>
+    <div class="navbar-light">
+      <div class="navbar-nav col-10">
         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Servicess</a>
+        <a class="nav-item nav-link" href="#">Services</a>
         <a class="nav-item nav-link" href="#">Pricing</a>
         <a class="nav-item nav-link " href="#">Pilgrimages</a>
         <a class="nav-item nav-link " href="#">Music</a>
       </div>
     </div>
   </nav>
-</body>
+  <div class="welcome-container">
+    <div class="welcome-text bs-purple">
+      <h1>Welcome pilgrim</h1>
+    </div>
+    <button class="btn-one">Enter</button>
+  </div>
+  </body>
 
 </html>

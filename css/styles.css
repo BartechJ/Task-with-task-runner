@@ -127,7 +127,7 @@ font-weight: bold;
   }
 
   .welcome-text3 {
-    margin-left: 125px;
+    margin-left: 90px;
     margin-top:10px;
 
   }
@@ -136,10 +136,15 @@ font-weight: bold;
     width: 180%;
     height: 180%;
    
-    margin-left:115px;
+    margin-left:135px;
 }
 
 
  .image-container5 {
     margin-left: 56px;
  }
+
+ .welcome-text3 h3 {
+    margin-left:60px;
+ }
+ 

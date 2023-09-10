@@ -64,7 +64,7 @@ font-weight: bold;
   .welcome-container {
     color:white;
     margin-left: 890px;
-    margin-top: 240px;
+    margin-top: 290px;
     position:absolute;
     
   }
@@ -96,9 +96,50 @@ font-weight: bold;
   }
   .welcome-text h1 {
     font-size: 45px;
-    color: #123456;
+    color: #305274;
     margin-left: -55px;
     font-family: 'Pirata One', cursive;
   }
+  .white-section {
+    background-color: white;
+    margin-top: 690px;
+    margin-left:241px;
+    padding-bottom:500px; /* Add padding to the section as needed */
+    position:absolute;
+    height: 100px;
+    width: 1394px;
+    /* You can also set other styles for this section */
+  }
+
+  .site-container {
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds viewport height */
+    padding-bottom: 1100px; /* Add padding to prevent content from getting cut off at the bottom */
+    height: 1000px;
+  }
+
+  h2 {
+    font-size: 45px;
+    color: black;
+    margin-left: 530px;
+    margin-top:100px;
+    font-family: 'Pirata One', cursive;
+  }
+
+  .welcome-text3 {
+    margin-left: 95px;
+    margin-top:10px;
+
+  }
+
+  .image-container5 i{
+    width: 180%;
+    height: 180%;
+   
+    margin-left:115px;
+}
+
+
+ 
 
 

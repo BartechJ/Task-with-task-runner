@@ -137,6 +137,7 @@ font-weight: bold;
 
 
  .image-container5 {
+    margin-top:-20px;
     margin-left: 56px;
  }
 
@@ -172,9 +173,18 @@ font-weight: bold;
     
 }
 .services1 {
-  margin-left: -60px;
+  margin-left: 0px;
 }
 
+.services2 {
+  margin-left: -60px;
+}
+.services3 {
+  margin-left: -60px;
+}
+.services4 {
+  margin-right: -60px;
+}
 .services5 {
   margin-right: -60px;
 }
@@ -241,7 +251,138 @@ font-weight: bold;
           /* You can also set other styles for this section */
         }
 
-        @media (max-width: 992px){
+        @media (max-width: 1200px){
+          .navbar-nav .nav-item {
+            margin-left: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px; /* Add spacing between menu items */
+            
+          }
+
+          .navbar-brand {
+            color: yellow !important;
+            font-size: 29px;
+            margin-left:100px;
+            text-decoration: none;
+            font-family: 'Pirata One', cursive;
+          }
+            
+          .navbar-nav{
+            margin-left: 570px;
+            margin-top: -20px;
+        
+        }
+        .container-main {
+          
+          padding-bottom:50px; /* Add padding to the section as needed */
+          position:absolute;
+          height: 1000px;
+          width: 1675px;
+          margin-left:-240px;
+          margin-top:-20px;
+          /* You can also set other styles for this section */
+        }
+        .white-section {
+          background-color: white;
+          margin-top: 690px;
+          margin-left:11px;
+          padding-bottom:500px; /* Add padding to the section as needed */
+          position:absolute;
+          height: 250px;
+          width: 1254px;
+          /* You can also set other styles for this section */
+        }
+        .grey-section {
+          background-color: #F0F0F0;
+          margin-top: 1290px;
+          margin-left:12px;
+          padding-bottom:500px; /* Add padding to the section as needed */
+          position:absolute;
+          height: 600px;
+          width: 1253px;
+          /* You can also set other styles for this section */
+        }
+
+        .social-section {
+          background-color: white;
+          margin-top: 2220px;
+          margin-left:131px;
+          padding-bottom:50px; /* Add padding to the section as needed */
+          position:absolute;
+          height: 100px;
+          width: 980px;
+          /* You can also set other styles for this section */
+        }
+        .social-section .copyrights p {
+       
+          font-size: 18px; /* Adjust the font size */
+          margin: 10px 0; 
+          margin-left: 170px;
+        }
+
+        .services1 {
+          margin-left: -100px;
+      }
+      .services2 {
+        margin-left: -25px;
+      }
+    
+    .services3 {
+      margin-left: -25PX
+    }
+    
+     .services4 {
+      margin-left: -100px;
+  }
+  .services5 {
+    margin-left: 35px;
+}
+.services6 {
+  margin-left: 35px;
+}
+
+  
+  .image-container5 {
+    margin-top:-20px;
+    margin-left: 156px;
+ }
+ .welcome-text2 {
+  margin-left: -10px;
+ }
+ 
+ .welcome-text3 h3{
+  margin-left:200px;
+  width:50%;
+  margin-top:-30px;
+  display: inline-block;
+}
+      
+     
+ .welcome-text3 p{
+  margin-left:200px;
+  width:50%;
+  margin-top:-10px;
+  display: inline-block;
+}
+
+.servik {
+  margin-left: -100px;
+  
+}
+.welcome-container {
+  color:white;
+  margin-left: 530px;
+  margin-top: 290px;
+  position:absolute;
+  
+}
+.welcome-text2 h2{
+  margin-left:490px;
+  
+}
+      }
+
+        @media (max-width: 991px){
           .navbar-nav .nav-item {
             display: block; /* Display menu items as blocks on smaller screens */
             margin-bottom: 10px; /* Add spacing between menu items */
@@ -360,7 +501,7 @@ font-weight: bold;
 }
       }
 
-      @media (max-width: 768px){
+      @media (max-width: 767px){
         .navbar-nav .nav-item {
           display: block; /* Display menu items as blocks on smaller screens */
           margin-bottom: 10px; /* Add spacing between menu items */
@@ -478,12 +619,14 @@ margin-left:420px;
 }
     }
      
-    @media (max-width: 576px){
+    @media (max-width: 575px){
       .navbar-nav .nav-item {
         display: block; /* Display menu items as blocks on smaller screens */
         margin-bottom: 10px; /* Add spacing between menu items */
         
       }
+
+      
       .navbar-nav{
         margin-left: 10px;
         margin-top: 20px;
@@ -522,28 +665,27 @@ margin-left:420px;
     .social-section {
       background-color: white;
       margin-top: 2920px;
-      margin-left:-391px;
-      padding-bottom:50px; /* Add padding to the section as needed */
+      margin-left:-491px;
+      padding-bottom:0px; /* Add padding to the section as needed */
       position:absolute;
-      height: 100px;
-      width: 1394px;
+      height: 140px;
+      width: 1514px;
       /* You can also set other styles for this section */
     }
     .social-section .copyrights p {
    
-      font-size: 18px; /* Adjust the font size */
-      margin: 10px 0; 
-      margin-left: 50px;
+      font-size: 15px; /* Adjust the font size */
+      margin-left: 520px;
     }
 
     .services1 {
-      margin-left: 150px;
+      margin-left: 100px;
       }
   .services2 {
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .services3 {
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 
@@ -558,6 +700,7 @@ font-family: 'Pirata One', cursive;
 }
 .image-container5 {
 margin-left: 106px;
+margin-top:10px;
 }
 
 .welcome-text2 {
@@ -565,7 +708,7 @@ margin-left: -60px;
 }
 
 .welcome-text3 h3{
-margin-left:100px;
+margin-left:70px;
 width:50%;
 margin-top:-30px;
 display: inline-block;
@@ -575,12 +718,13 @@ display: inline-block;
 .welcome-text3 p{
 margin-left:100px;
 width:50%;
-margin-top:-10px;
+margin-top:-20px;
 display: inline-block;
 }
 
 .servik {
-margin-left: -100px;
+margin-left: 80px;
+margin-top: -50px;
 
 }
 .welcome-container {
@@ -591,7 +735,7 @@ position:absolute;
 
 }
 .welcome-text2 h2{
-margin-left:450px;
+margin-left:400px;
 
 }
   }

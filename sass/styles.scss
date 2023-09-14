@@ -1,3 +1,5 @@
+
+
 .navbar-collapse{margin-right:20px}
 .navbar {
     background-color: transparent !important;
@@ -67,7 +69,7 @@ font-weight: bold;
     margin-left: 860px;
     margin-top: 330px;
     position:absolute;
-    
+    overflow-x: hidden;
   }
 
   .btn-one {
@@ -109,6 +111,8 @@ font-weight: bold;
     position:absolute;
     height: 100px;
     width: 1394px;
+    max-width: 100%;
+    overflow-x: hidden;
     /* You can also set other styles for this section */
   }
 
@@ -152,6 +156,8 @@ font-weight: bold;
     position:absolute;
     height: 550px;
     width: 1394px;
+    max-width: 100%;
+   
     /* You can also set other styles for this section */
   }
   .image-container6 img{
@@ -199,6 +205,8 @@ font-weight: bold;
     position:absolute;
     height: 100px;
     width: 1394px;
+    max-width: 100%;
+    
     /* You can also set other styles for this section */
   }
   
@@ -257,6 +265,8 @@ font-weight: bold;
           height: 1000px;
           width: 1862px;
           margin-left:-10px;
+          max-width: 100%;
+          overflow-x: hidden;
           /* You can also set other styles for this section */
         }
 

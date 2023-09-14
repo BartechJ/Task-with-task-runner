@@ -216,11 +216,20 @@ font-weight: bold;
         padding: 10px; /* Add padding for the circular shape */
         background-color: #000; /* Oval background color (black) */
         display: inline-block; /* Ensure proper spacing */
-        margin-left: 0px;
-        padding-left: 26%;
+        margin-left: 5px;
+        padding-left: 32%;
         width: 30px; /* Set the width */
-        height: 30px
-        }
+        height: 30px; /* Set the height */
+     
+    }
+
+    .social-section .social-icon .fab.fa-facebook-f{
+      
+      padding-left: 13%;
+      
+   
+  }
+        
       
       /* Remove default list styling */
       .social-section .social-media-list {
@@ -517,8 +526,8 @@ font-weight: bold;
         padding-bottom:50px; /* Add padding to the section as needed */
         position:absolute;
         height: 1000px;
-        width: 1552px;
-        margin-left:-390px;
+        max-width: 1200px;
+        margin-left:-10px;
         /* You can also set other styles for this section */
       }
       .white-section {

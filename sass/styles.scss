@@ -435,126 +435,15 @@ font-weight: bold;
 }
       }
 
-        @media (max-width: 991px){
-          .navbar-nav .nav-item {
-            display: block; /* Display menu items as blocks on smaller screens */
-            margin-bottom: 10px; /* Add spacing between menu items */
-            
-          }
-          .navbar-nav{
-            margin-left: 10px;
-            margin-top: 20px;
-        
-        }
-        .container-main {
-          
-          padding-bottom:50px; /* Add padding to the section as needed */
-          position:absolute;
-          height: 1000px;
-          width: 1552px;
-          margin-left:-390px;
-          /* You can also set other styles for this section */
-        }
-        .white-section {
-          background-color: white;
-          margin-top: 690px;
-          margin-left:-241px;
-          padding-bottom:500px; /* Add padding to the section as needed */
-          position:absolute;
-          height: 250px;
-          width: 1264px;
-          /* You can also set other styles for this section */
-        }
-        .grey-section {
-          background-color: #F0F0F0;
-          margin-top: 1290px;
-          margin-left:-241px;
-          padding-bottom:500px; /* Add padding to the section as needed */
-          position:absolute;
-          height: 600px;
-          width: 1264px;
-          /* You can also set other styles for this section */
-        }
-
-        .social-section {
-          background-color: white;
-          margin-top: 2220px;
-          margin-left:-391px;
-          padding-bottom:50px; /* Add padding to the section as needed */
-          position:absolute;
-          height: 100px;
-          width: 1394px;
-          /* You can also set other styles for this section */
-        }
-        .social-section .copyrights p {
-       
-          font-size: 18px; /* Adjust the font size */
-          margin: 10px 0; 
-          margin-left: 100px;
-        }
-
-        .services1 {
-          margin-left: 70px;
-      }
-      .services2 {
-        margin-left: -200px;
-    }
-    .services3 {
-      margin-left: 70px;
-  }
-    .services4 {
-      margin-left: -200px;
-  }
-
-  .navbar-brand {
-    color: yellow !important;
-    font-size: 25px;
-    margin-left:400px;
-    text-decoration: none;
-    font-family: 'Pirata One', cursive;
+      @media (max-width: 991px){
+        .body {
     
-    
-  }
-  .image-container5 {
-    margin-left: 156px;
- }
- .welcome-text2 {
-  margin-left: -10px;
- }
- 
- .welcome-text3 h3{
-  margin-left:200px;
-  width:50%;
-  margin-top:-30px;
-  display: inline-block;
-}
+          margin: 0;
+          padding: 0;
+          overflow-x: hidden; /* This prevents horizontal scrolling */
+          background-color: black;
       
-     
- .welcome-text3 p{
-  margin-left:200px;
-  width:50%;
-  margin-top:-10px;
-  display: inline-block;
-}
-
-.servik {
-  margin-left: -100px;
-  
-}
-.welcome-container {
-  color:white;
-  margin-left: 380px;
-  margin-top: 290px;
-  position:absolute;
-  
-}
-.welcome-text2 h2{
-  margin-left:520px;
-  
-}
       }
-
-      @media (max-width: 767px){
         .navbar-nav .nav-item {
           display: block; /* Display menu items as blocks on smaller screens */
           margin-bottom: 10px; /* Add spacing between menu items */
@@ -570,39 +459,49 @@ font-weight: bold;
         padding-bottom:50px; /* Add padding to the section as needed */
         position:absolute;
         height: 1000px;
-        max-width: 1200px;
-        margin-left:-10px;
+        width: 98%; /* Use 100% width to fill the screen */
+  /* Other common properties for centering content */
+        display: flex;
+        margin-left:0px;
         /* You can also set other styles for this section */
       }
       .white-section {
         background-color: white;
         margin-top: 690px;
-        margin-left:-241px;
-        padding-bottom:500px; /* Add padding to the section as needed */
+        margin-left:0px;
+        padding-bottom:300px; /* Add padding to the section as needed */
         position:absolute;
-        height: 350px;
-        width: 1264px;
+        height: 150px;
+        width: 100%;
+         /* Use 100% width to fill the screen */
+  /* Other common properties for centering content */
+ 
         /* You can also set other styles for this section */
       }
       .grey-section {
         background-color: #F0F0F0;
-        margin-top: 1530px;
-        margin-left:-241px;
+        margin-top: 1090px;
+        margin-left:0px;
         padding-bottom:500px; /* Add padding to the section as needed */
         position:absolute;
-        height: 900px;
-        width: 1264px;
+        height: 400px;
+        width: 100%; /* Use 100% width to fill the screen */
+  /* Other common properties for centering content */
+  display: flex;
+        overflow-x: hidden;
         /* You can also set other styles for this section */
       }
 
       .social-section {
         background-color: white;
-        margin-top: 2920px;
-        margin-left:-441px;
-        padding-bottom:50px; /* Add padding to the section as needed */
-        position:absolute;
+        margin-top: 1980px;
+        margin-left:0px;
+        padding-bottom:60px; /* Add padding to the section as needed */
+        position:relative;
         height: 100px;
-        width: 1394px;
+        width: 100%; /* Use 100% width to fill the screen */
+  /* Other common properties for centering content */
+  display: flex;
         /* You can also set other styles for this section */
       }
       .social-section .copyrights p {
@@ -613,15 +512,17 @@ font-weight: bold;
       }
 
       .services1 {
-        margin-left: 160px;
-        }
+        margin-left: 100px;
+    }
     .services2 {
-      margin-left: 160px;
+      margin-left: -160px;
   }
   .services3 {
-    margin-left: 160px;
+    margin-left: 30px;
 }
-
+  .services4 {
+    margin-left: -160px;
+}
 
 .navbar-brand {
   color: yellow !important;
@@ -633,30 +534,86 @@ font-weight: bold;
   
 }
 .image-container5 {
-  margin-left: 106px;
+  margin-left: 176px;
+  
+  display: flex;
+ 
 }
-
 .welcome-text2 {
 margin-left: -10px;
 }
 
-.welcome-text3 h3{
-margin-left:100px;
-width:50%;
+.welcome-text31 h3{
+margin-left:110px;
+width:150%;
 margin-top:-30px;
-display: inline-block;
+display: block;
 }
+.welcome-text32 h3{
+  margin-left:240px;
+  width:150%;
+  margin-top:-30px;
+  display: block;
+  }
+  .welcome-text33 h3{
+    margin-left:340px;
+    width:150%;
+    margin-top:-30px;
+    display: block;
+    }
     
-   
-.welcome-text3 p{
-margin-left:100px;
-width:50%;
-margin-top:-10px;
+ .welcome-text-white {
+  margin-left:-25px;
+ }  
+
+ .welcome-text-white h4 {
+  text-align: center;
+  } 
+.welcome-text31 p{
+margin-left:60px;
+width:100%;
+margin-top:20px;
 display: inline-block;
+padding-left:50px;
+margin-right:20px;
+display: flex;
 }
 
+.welcome-text32 p{
+  margin-left:170px;
+  width:100%;
+  margin-top:20px;
+  display: inline-block;
+  padding-left:50px;
+  margin-right:20px;
+  display: flex;
+  }
+
+  .welcome-text33 p{
+    margin-left:310px;
+    width:100%;
+    margin-top:20px;
+    display: inline-block;
+    padding-left:50px;
+    margin-right:20px;
+    display: flex;
+    }
+
+    .image-container5 .fa-solid.fa-handshake-simple {
+      margin-left: -15px; /* Adjust the left margin to move the icon to the right */
+     
+    }
+
+    .image-container5 .fa-solid.fa-hands-praying{
+      margin-left: 75px;
+        }
+
+        .image-container5 .fa-solid.fa-tents{
+          margin-left: 175px;
+        }
+
 .servik {
-margin-left: -100px;
+margin-left: -120px;
 
 }
 .welcome-container {
@@ -667,11 +624,316 @@ position:absolute;
 
 }
 .welcome-text2 h2{
-margin-left:420px;
+margin-left:140px;
+}
+
+h4 {
+  font-size: 45px;
+  color: black;
+  margin-left: 115px;
+  margin-top:50px;
+  font-family: 'Pirata One', cursive;
+}
+
+
+
+.card {
+  background-color: white;
+  
+  
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+  max-width: 320px; /* Adjust the maximum width as needed */
+  margin-left: -230px;
+}
+.social-section .social-media-list {
+  list-style: none;
+  margin-left: -50px;
+ }
+ .services1 {
+  margin-left: 10px;
+}
+.services2 {
+margin-left: 40px;
+}
+.services3 {
+margin-left: 70px;
+}
+.services4 {
+margin-left: 50px;
+}
+
+
+      
+      @media (max-width: 767px){
+        .body {
+    
+          margin: 0;
+          padding: 0;
+          overflow-x: hidden; /* This prevents horizontal scrolling */
+          background-color: black;
+      
+      }
+        .navbar-nav .nav-item {
+          display: block; /* Display menu items as blocks on smaller screens */
+          margin-bottom: 10px; /* Add spacing between menu items */
+          
+        }
+        .navbar-nav{
+          margin-left: 10px;
+          margin-top: 120px;
+      
+      }
+      
+      
+      .container-main {
+        
+        padding-bottom:50px; /* Add padding to the section as needed */
+        position:absolute;
+        height: 1000px;
+        width: 98%; /* Use 100% width to fill the screen */
+  /* Other common properties for centering content */
+  display: flex;
+        margin-left:0px;
+        /* You can also set other styles for this section */
+      }
+
+      .btn-one {
+        display: inline-block;
+        min-width: 160px;
+        margin: 0 auto;
+        padding: 8px;
+        border-radius: 5px;
+        font-family: inherit;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border-width: 2px;
+        border-style: solid;
+        background: linear-gradient(90deg, yellow 25%, green 70%);
+        background-size: 325% 150%;
+        transition: all 3.3s ease;
+        margin-top:30px;
+        margin-left:-110px;
+        &:hover {
+          background-position: -100% 0;
+          color: white;
+          border-color: white;
+          font-family: "Pacifico", cursive;
+        }
+    
+      }
+      .welcome-text h1 {
+        font-size: 45px;
+        color: #305274;
+        margin-left: -155px;
+        margin-top: -50px;
+        font-family: 'Pirata One', cursive;
+      }
+
+
+      .white-section {
+        background-color: white;
+        margin-top: 690px;
+        margin-left:0px;
+        padding-bottom:500px; /* Add padding to the section as needed */
+        position:absolute;
+        height: 300px;
+        width: 100%; /* Use 100% width to fill the screen */
+        overflow-x: hidden;
+  /* Other common properties for centering content */
+  display: flex;
+        /* You can also set other styles for this section */
+      }
+      .servik {
+        margin-left:100px;
+      }
+      .grey-section {
+        background-color: #F0F0F0;
+        margin-top: 1350px;
+        margin-left:0px;
+        padding-bottom:500px; /* Add padding to the section as needed */
+        position:absolute;
+        height: 400px;
+        width: 100%; /* Use 100% width to fill the screen */
+  /* Other common properties for centering content */
+  display: flex;
+        overflow-x: hidden;
+        /* You can also set other styles for this section */
+      }
+
+      .social-section {
+        background-color: white;
+        margin-top: 2250px;
+        margin-left:0px;
+        padding-bottom:60px; /* Add padding to the section as needed */
+        position:absolute;
+        height: 100px;
+        width: 100%; /* Use 100% width to fill the screen */
+  /* Other common properties for centering content */
+  display: flex;
+        /* You can also set other styles for this section */
+      }
+      .social-section .copyrights p {
+     
+        font-size: 18px; /* Adjust the font size */
+        margin: 10px 0; 
+        margin-left: 80px;
+      }
+
+      .services1 {
+        margin-left: 100px;
+    }
+    .services2 {
+      margin-left: -160px;
+  }
+  .services3 {
+    margin-left: 30px;
+}
+  .services4 {
+    margin-left: -160px;
+}
+
+.navbar-brand {
+  color: yellow !important;
+  font-size: 25px;
+  margin-left:200px;
+  text-decoration: none;
+  font-family: 'Pirata One', cursive;
+  
+  
+}
+.image-container5 {
+  margin-left: 86px;
+}
+
+.image-container5 .fa-solid.fa-hands-praying{
+  margin-left: -75px;
+    }
+
+    .welcome-text32 h3{
+      margin-left:-40px;
+      width:150%;
+      margin-top:-30px;
+      display: block;
+      }
+
+      .welcome-text32 p{
+        margin-left:-82px;
+        width:100%;
+        margin-top:20px;
+        display: inline-block;
+        padding-left:50px;
+        margin-right:20px;
+        display: flex;
+        }
+
+        .image-container5 .fa-solid.fa-tents{
+          margin-left: 75px;
+        }
+
+        .welcome-text33 h3{
+          margin-left:125px;
+          width:150%;
+          margin-top:-30px;
+          display: block;
+          }
+
+
+   .welcome-text33 p{
+        margin-left:82px;
+        width:100%;
+        margin-top:20px;
+        display: inline-block;
+        padding-left:50px;
+        margin-right:20px;
+        display: flex;
+        }
+.welcome-text2 {
+margin-left: -10px;
+}
+
+.welcome-text3 h3{
+margin-left:150px;
+width:50%;
+margin-top:-30px;
+display: inline-block;
+}
+    
+   
+.welcome-text3 p{
+margin-left:200px;
+width:50%;
+margin-top:-10px;
+display: inline-block;
+}
+
+.servik {
+margin-left: -120px;
 
 }
+.welcome-container {
+color:white;
+margin-left: 380px;
+margin-top: 290px;
+position:absolute;
+
+}
+.welcome-text2 h2{
+margin-left:140px;
+
+}
+
+h4 {
+  font-size: 45px;
+  color: black;
+  margin-left: 95px;
+  margin-top:50px;
+  font-family: 'Pirata One', cursive;
+}
+
+.welcome-text2 h2{
+  margin-left:30px;
+  
+  }
+
+
+
+.card {
+  background-color: white;
+  
+  
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+  max-width: 320px; /* Adjust the maximum width as needed */
+  margin-left: -230px;
+}
+.social-section .social-media-list {
+  list-style: none;
+  margin-left: -50px;
+ }
+ .services1 {
+  margin-left: 50px;
+}
+.services2 {
+margin-left: 50px;
+}
+.services3 {
+margin-left: 50px;
+}
+.services4 {
+margin-left: 50px;
+}
+
+      }
     }
-     
+
+    
     @media (max-width: 575px){
       .navbar-nav .nav-item {
         display: block; /* Display menu items as blocks on smaller screens */
@@ -730,6 +992,8 @@ margin-left:420px;
       font-size: 15px; /* Adjust the font size */
       margin-left: 520px;
     }
+
+    
 
     .services1 {
       margin-left: 100px;
@@ -793,4 +1057,3 @@ margin-left:400px;
 }
   }
    
-     
